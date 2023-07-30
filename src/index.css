@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+    @apply absolute w-full bg-violet-600;
+    height: 200px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
